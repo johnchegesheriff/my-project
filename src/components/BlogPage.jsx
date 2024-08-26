@@ -61,7 +61,7 @@ const BlogPage = () => {
       {/* Blog card section */}
       <div>
         {isLoading ? (
-          <p>Loading blogs...</p>
+          <p>Loading blogs ....</p>
         ) : error ? (
           <p>{error}</p>
         ) : (
